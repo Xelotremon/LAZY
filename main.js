@@ -284,4 +284,4 @@ bot.on("message", function(message) {
   }
 });
 
-bot.login(config.token);
+bot.login(process.env.TOKEN);
